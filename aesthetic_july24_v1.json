@@ -1,0 +1,41 @@
+{
+    "Ads": [
+        {
+            "select_ads_interstitial": "ADMOB",
+            "select_ads_interstitial2": "ADMOB",
+            "select_ads_banner": "ADMOB",
+            "select_ads_native": "ADMOB",
+            "select_ads_native_small": "ADMOB",
+            "interstitial_3d": "0",
+            "status_app": "0",
+            "link_redirect": "",
+            "admob_reward": "ca-app-pub-8221491831403599/1316742017",
+            "admob_interid": "ca-app-pub-8221491831403599/5478698320",
+            "admob_nativeid_kecil": "ca-app-pub-8221491831403599/1647031383",
+            "admob_nativeid_besar": "ca-app-pub-8221491831403599/6899358068",
+            "admob_banner": "ca-app-pub-8221491831403599/9417943331",
+            "admob_open_ads": "ca-app-pub-8221491831403599/5287126639",
+            "interval_intertitial": "3",
+            "unityID": "4573644xx",
+            "unity_inter": "Interstitial_Android",
+            "unity_banner": "",
+            "applovin_reward": "f4a6eb7da8c3a0fa",
+            "applovin_native": "6b60e4dc71923954",
+            "applovin_native_small": "eaf4325e1b1b0847",
+            "applovin_banner": "fb40d102114d5e03",
+            "applovin_inter": "012174ef94edc84e",
+            "applovin_zone": "9f20993c3483565b",
+            "select_exit": "1",
+            "on_off_category": "1",
+            "on_off_more_app": "2",
+            "on_off_video_ads": "1",
+            "on_off_open_ads": "0",
+            "tutorial": "https://sites.google.com/view/mcpe-starla/halaman-muka",
+            "hpk_admob1": "",
+            "hpk_admob2": "",
+            "hpk_admob3": "",
+            "hpk_admob4": "",
+            "hpk_admob5": ""
+        }
+    ]
+}
