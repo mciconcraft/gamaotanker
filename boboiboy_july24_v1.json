@@ -1,41 +1,586 @@
 {
-    "Ads": [
-        {
-            "select_ads_interstitial": "ADMOB",
-            "select_ads_interstitial2": "ADMOB",
-            "select_ads_banner": "ADMOB",
-            "select_ads_native": "ADMOB",
-            "select_ads_native_small": "ADMOB",
-            "interstitial_3d": "0",
-            "status_app": "0",
-            "link_redirect": "",
-            "admob_reward": "ca-app-pub-8221491831403599/1316742017",
-            "admob_interid": "ca-app-pub-8221491831403599/5478698320",
-            "admob_nativeid_kecil": "ca-app-pub-8221491831403599/1647031383",
-            "admob_nativeid_besar": "ca-app-pub-8221491831403599/6899358068",
-            "admob_banner": "ca-app-pub-8221491831403599/9417943331",
-            "admob_open_ads": "ca-app-pub-8221491831403599/5287126639",
-            "interval_intertitial": "3",
-            "unityID": "4573644xx",
-            "unity_inter": "Interstitial_Android",
-            "unity_banner": "",
-            "applovin_reward": "f4a6eb7da8c3a0fa",
-            "applovin_native": "6b60e4dc71923954",
-            "applovin_native_small": "eaf4325e1b1b0847",
-            "applovin_banner": "fb40d102114d5e03",
-            "applovin_inter": "012174ef94edc84e",
-            "applovin_zone": "9f20993c3483565b",
-            "select_exit": "1",
-            "on_off_category": "1",
-            "on_off_more_app": "2",
-            "on_off_video_ads": "1",
-            "on_off_open_ads": "0",
-            "tutorial": "https://sites.google.com/view/mcpe-starla/halaman-muka",
-            "hpk_admob1": "",
-            "hpk_admob2": "",
-            "hpk_admob3": "",
-            "hpk_admob4": "",
-            "hpk_admob5": ""
-        }
-    ]
+  "Categories": [
+    {
+      "id": 1,
+      "name_category": "minecraft google play",
+      "image": "https://lh3.googleusercontent.com/d/https://i.pinimg.com/564x/6c/b4/4d/6cb44d856850800b2b97858ac337e47f.jpg"
+    },
+    {
+      "id": 2,
+      "name_category": "Minecraft Skin",
+      "image": "https://lh3.googleusercontent.com/d/http://www.123mobilewallpapers.com/wp-content/uploads/2015/09/black_cat_cute_wallpaper.jpg"
+    },
+    {
+      "id": 3,
+      "name_category": "minecraft play store",
+      "image": "https://lh3.googleusercontent.com/d/file:///android_asset/image/car.jpg"
+    },
+    {
+      "id": 4,
+      "name_category": "Nature",
+      "image": "https://lh3.googleusercontent.com/d/file:///android_asset/image/car.jpg"
+    }
+  ],
+  "Data": [
+    {
+      "id": 1,
+      "name_category": "Nature",
+      "title": "Boboiboy 001",
+      "image": "file:///android_asset/view/boboiboy_01.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_01.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 2,
+      "name_category": "Nature",
+      "title": "Boboiboy 002",
+      "image": "file:///android_asset/view/boboiboy_02.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_02.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 3,
+      "name_category": "Nature",
+      "title": "Boboiboy 003",
+      "image": "file:///android_asset/view/boboiboy_03.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_03.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 4,
+      "name_category": "Nature",
+      "title": "Boboiboy 004",
+      "image": "file:///android_asset/view/boboiboy_04.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_04.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 5,
+      "name_category": "Nature",
+      "title": "Boboiboy 005",
+      "image": "file:///android_asset/view/boboiboy_05.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_05.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 6,
+      "name_category": "Nature",
+      "title": "Boboiboy 006",
+      "image": "file:///android_asset/view/boboiboy_06.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_06.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 7,
+      "name_category": "Nature",
+      "title": "Boboiboy 007",
+      "image": "file:///android_asset/view/boboiboy_07.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_07.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 8,
+      "name_category": "Nature",
+      "title": "Boboiboy 008",
+      "image": "file:///android_asset/view/boboiboy_08.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_08.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 9,
+      "name_category": "Nature",
+      "title": "Boboiboy 009",
+      "image": "file:///android_asset/view/boboiboy_09.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_09.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 10,
+      "name_category": "Nature",
+      "title": "Boboiboy 010",
+      "image": "file:///android_asset/view/boboiboy_10.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_10.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 11,
+      "name_category": "Nature",
+      "title": "Boboiboy 011",
+      "image": "file:///android_asset/view/boboiboy_11.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_11.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 12,
+      "name_category": "Nature",
+      "title": "Boboiboy 012",
+      "image": "file:///android_asset/view/boboiboy_12.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_12.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 13,
+      "name_category": "Nature",
+      "title": "Boboiboy 013",
+      "image": "file:///android_asset/view/boboiboy_13.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_13.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 14,
+      "name_category": "Nature",
+      "title": "Boboiboy 014",
+      "image": "file:///android_asset/view/boboiboy_14.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_14.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 15,
+      "name_category": "Nature",
+      "title": "Boboiboy 015",
+      "image": "file:///android_asset/view/boboiboy_15.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_15.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 16,
+      "name_category": "Nature",
+      "title": "Boboiboy 016",
+      "image": "file:///android_asset/view/boboiboy_16.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_16.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 17,
+      "name_category": "Nature",
+      "title": "Boboiboy 017",
+      "image": "file:///android_asset/view/boboiboy_17.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_17.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 18,
+      "name_category": "Nature",
+      "title": "Boboiboy 018",
+      "image": "file:///android_asset/view/boboiboy_18.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_18.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 19,
+      "name_category": "Nature",
+      "title": "Boboiboy 019",
+      "image": "file:///android_asset/view/boboiboy_19.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_19.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 20,
+      "name_category": "Nature",
+      "title": "Boboiboy 020",
+      "image": "file:///android_asset/view/boboiboy_20.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_20.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 21,
+      "name_category": "Nature",
+      "title": "Boboiboy 021",
+      "image": "file:///android_asset/view/boboiboy_21.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_21.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 22,
+      "name_category": "Nature",
+      "title": "Boboiboy 022",
+      "image": "file:///android_asset/view/boboiboy_22.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_22.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 23,
+      "name_category": "Nature",
+      "title": "Boboiboy 023",
+      "image": "file:///android_asset/view/boboiboy_23.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_23.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 24,
+      "name_category": "Nature",
+      "title": "Boboiboy 024",
+      "image": "file:///android_asset/view/boboiboy_24.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_24.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 25,
+      "name_category": "Nature",
+      "title": "Boboiboy 025",
+      "image": "file:///android_asset/view/boboiboy_25.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_25.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 26,
+      "name_category": "Nature",
+      "title": "Boboiboy 026",
+      "image": "file:///android_asset/view/boboiboy_26.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_26.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 27,
+      "name_category": "Nature",
+      "title": "Boboiboy 027",
+      "image": "file:///android_asset/view/boboiboy_27.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_27.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 28,
+      "name_category": "Nature",
+      "title": "Boboiboy 028",
+      "image": "file:///android_asset/view/boboiboy_28.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_28.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 29,
+      "name_category": "Nature",
+      "title": "Boboiboy 029",
+      "image": "file:///android_asset/view/boboiboy_29.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_29.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 30,
+      "name_category": "Nature",
+      "title": "Boboiboy 030",
+      "image": "file:///android_asset/view/boboiboy_30.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_30.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 31,
+      "name_category": "Nature",
+      "title": "Boboiboy 031",
+      "image": "file:///android_asset/view/boboiboy_31.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_31.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 32,
+      "name_category": "Nature",
+      "title": "Boboiboy 032",
+      "image": "file:///android_asset/view/boboiboy_32.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_32.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 33,
+      "name_category": "Nature",
+      "title": "Boboiboy 033",
+      "image": "file:///android_asset/view/boboiboy_33.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_33.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 34,
+      "name_category": "Nature",
+      "title": "Boboiboy 034",
+      "image": "file:///android_asset/view/boboiboy_34.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_34.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 35,
+      "name_category": "Nature",
+      "title": "Boboiboy 035",
+      "image": "file:///android_asset/view/boboiboy_35.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_35.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 36,
+      "name_category": "Nature",
+      "title": "Boboiboy 036",
+      "image": "file:///android_asset/view/boboiboy_36.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_36.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 37,
+      "name_category": "Nature",
+      "title": "Boboiboy 037",
+      "image": "file:///android_asset/view/boboiboy_37.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_37.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 38,
+      "name_category": "Nature",
+      "title": "Boboiboy 038",
+      "image": "file:///android_asset/view/boboiboy_38.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_38.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 39,
+      "name_category": "Nature",
+      "title": "Boboiboy 039",
+      "image": "file:///android_asset/view/boboiboy_39.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_39.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 40,
+      "name_category": "Nature",
+      "title": "Boboiboy 040",
+      "image": "file:///android_asset/view/boboiboy_40.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_40.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 41,
+      "name_category": "Nature",
+      "title": "Boboiboy 041",
+      "image": "file:///android_asset/view/boboiboy_41.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_41.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    },
+    {
+      "id": 42,
+      "name_category": "Nature",
+      "title": "Boboiboy 042",
+      "image": "file:///android_asset/view/boboiboy_42.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_42.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    },
+    {
+      "id": 43,
+      "name_category": "Nature",
+      "title": "Boboiboy 043",
+      "image": "file:///android_asset/view/boboiboy_43.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_43.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    },
+    {
+      "id": 44,
+      "name_category": "Nature",
+      "title": "Boboiboy 044",
+      "image": "file:///android_asset/view/boboiboy_44.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_44.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    },
+    {
+      "id": 45,
+      "name_category": "Nature",
+      "title": "Boboiboy 045",
+      "image": "file:///android_asset/view/boboiboy_45.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_45.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    },
+    {
+      "id": 46,
+      "name_category": "Nature",
+      "title": "Boboiboy 046",
+      "image": "file:///android_asset/view/boboiboy_46.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_46.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    },
+    {
+      "id": 47,
+      "name_category": "Nature",
+      "title": "Boboiboy 047",
+      "image": "file:///android_asset/view/boboiboy_47.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_47.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    },
+    {
+      "id": 48,
+      "name_category": "Nature",
+      "title": "Boboiboy 048",
+      "image": "file:///android_asset/view/boboiboy_48.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_48.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    },
+    {
+      "id": 49,
+      "name_category": "Nature",
+      "title": "Boboiboy 049",
+      "image": "file:///android_asset/view/boboiboy_49.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_49.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    },
+    {
+      "id": 50,
+      "name_category": "Nature",
+      "title": "Boboiboy 050",
+      "image": "file:///android_asset/view/boboiboy_50.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_50.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    },
+    {
+      "id": 51,
+      "name_category": "Nature",
+      "title": "Boboiboy 051",
+      "image": "file:///android_asset/view/boboiboy_51.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_51.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-06.mcpack"
+    },
+    {
+      "id": 52,
+      "name_category": "Nature",
+      "title": "Boboiboy 052",
+      "image": "file:///android_asset/view/boboiboy_52.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_52.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-06.mcpack"
+    },
+    {
+      "id": 53,
+      "name_category": "Nature",
+      "title": "Boboiboy 053",
+      "image": "file:///android_asset/view/boboiboy_53.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_53.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-06.mcpack"
+    },
+    {
+      "id": 54,
+      "name_category": "Nature",
+      "title": "Boboiboy 054",
+      "image": "file:///android_asset/view/boboiboy_54.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_54.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-06.mcpack"
+    },
+    {
+      "id": 55,
+      "name_category": "Nature",
+      "title": "Boboiboy 055",
+      "image": "file:///android_asset/view/boboiboy_55.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_55.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-06.mcpack"
+    },
+    {
+      "id": 56,
+      "name_category": "Nature",
+      "title": "Boboiboy 056",
+      "image": "file:///android_asset/view/boboiboy_56.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_56.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-06.mcpack"
+    },
+    {
+      "id": 57,
+      "name_category": "Nature",
+      "title": "Boboiboy 057",
+      "image": "file:///android_asset/view/boboiboy_57.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_57.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-06.mcpack"
+    },
+    {
+      "id": 58,
+      "name_category": "Nature",
+      "title": "Boboiboy 058",
+      "image": "file:///android_asset/view/boboiboy_58.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_58.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-06.mcpack"
+    },
+    {
+      "id": 59,
+      "name_category": "Nature",
+      "title": "Boboiboy 059",
+      "image": "file:///android_asset/view/boboiboy_59.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_59.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-06.mcpack"
+    },
+    {
+      "id": 60,
+      "name_category": "Nature",
+      "title": "Boboiboy 060",
+      "image": "file:///android_asset/view/boboiboy_60.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_60.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-06.mcpack"
+    },
+    {
+      "id": 61,
+      "name_category": "Nature",
+      "title": "Boboiboy 061",
+      "image": "file:///android_asset/view/boboiboy_61.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_61.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 62,
+      "name_category": "Nature",
+      "title": "Boboiboy 062",
+      "image": "file:///android_asset/view/boboiboy_62.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_62.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 63,
+      "name_category": "Nature",
+      "title": "Boboiboy 063",
+      "image": "file:///android_asset/view/boboiboy_63.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_63.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 64,
+      "name_category": "Nature",
+      "title": "Boboiboy 064",
+      "image": "file:///android_asset/view/boboiboy_64.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_64.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 65,
+      "name_category": "Nature",
+      "title": "Boboiboy 065",
+      "image": "file:///android_asset/view/boboiboy_65.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_65.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 66,
+      "name_category": "Nature",
+      "title": "Boboiboy 066",
+      "image": "file:///android_asset/view/boboiboy_66.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_66.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 67,
+      "name_category": "Nature",
+      "title": "Boboiboy 067",
+      "image": "file:///android_asset/view/boboiboy_67.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_67.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 68,
+      "name_category": "Nature",
+      "title": "Boboiboy 068",
+      "image": "file:///android_asset/view/boboiboy_68.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_68.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 69,
+      "name_category": "Nature",
+      "title": "Boboiboy 069",
+      "image": "file:///android_asset/view/boboiboy_69.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_69.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 70,
+      "name_category": "Nature",
+      "title": "Boboiboy 070",
+      "image": "file:///android_asset/view/boboiboy_70.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/boboiboy/boboiboy_70.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    }
+  ]
 }
