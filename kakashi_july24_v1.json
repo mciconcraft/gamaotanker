@@ -1,41 +1,666 @@
 {
-    "Ads": [
-        {
-            "select_ads_interstitial": "ADMOB",
-            "select_ads_interstitial2": "ADMOB",
-            "select_ads_banner": "ADMOB",
-            "select_ads_native": "ADMOB",
-            "select_ads_native_small": "ADMOB",
-            "interstitial_3d": "0",
-            "status_app": "0",
-            "link_redirect": "",
-            "admob_reward": "ca-app-pub-8221491831403599/1316742017",
-            "admob_interid": "ca-app-pub-8221491831403599/5478698320",
-            "admob_nativeid_kecil": "ca-app-pub-8221491831403599/1647031383",
-            "admob_nativeid_besar": "ca-app-pub-8221491831403599/6899358068",
-            "admob_banner": "ca-app-pub-8221491831403599/9417943331",
-            "admob_open_ads": "ca-app-pub-8221491831403599/5287126639",
-            "interval_intertitial": "3",
-            "unityID": "4573644xx",
-            "unity_inter": "Interstitial_Android",
-            "unity_banner": "",
-            "applovin_reward": "f4a6eb7da8c3a0fa",
-            "applovin_native": "6b60e4dc71923954",
-            "applovin_native_small": "eaf4325e1b1b0847",
-            "applovin_banner": "fb40d102114d5e03",
-            "applovin_inter": "012174ef94edc84e",
-            "applovin_zone": "9f20993c3483565b",
-            "select_exit": "1",
-            "on_off_category": "1",
-            "on_off_more_app": "2",
-            "on_off_video_ads": "1",
-            "on_off_open_ads": "0",
-            "tutorial": "https://sites.google.com/view/mcpe-starla/halaman-muka",
-            "hpk_admob1": "",
-            "hpk_admob2": "",
-            "hpk_admob3": "",
-            "hpk_admob4": "",
-            "hpk_admob5": ""
-        }
-    ]
+  "Categories": [
+    {
+      "id": 1,
+      "name_category": "minecraft google play",
+      "image": "https://lh3.googleusercontent.com/d/https://i.pinimg.com/564x/6c/b4/4d/6cb44d856850800b2b97858ac337e47f.jpg"
+    },
+    {
+      "id": 2,
+      "name_category": "Minecraft Skin",
+      "image": "https://lh3.googleusercontent.com/d/http://www.123mobilewallpapers.com/wp-content/uploads/2015/09/black_cat_cute_wallpaper.jpg"
+    },
+    {
+      "id": 3,
+      "name_category": "minecraft play store",
+      "image": "https://lh3.googleusercontent.com/d/file:///android_asset/image/car.jpg"
+    },
+    {
+      "id": 4,
+      "name_category": "Nature",
+      "image": "https://lh3.googleusercontent.com/d/file:///android_asset/image/car.jpg"
+    }
+  ],
+  "Data": [
+    {
+      "id": 1,
+      "name_category": "Nature",
+      "title": "Kakashi 001",
+      "image": "file:///android_asset/view/kakashi_01.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_01.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-1.mcpack"
+    },
+    {
+      "id": 2,
+      "name_category": "Nature",
+      "title": "Kakashi 002",
+      "image": "file:///android_asset/view/kakashi_02.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_02.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-1.mcpack"
+    },
+    {
+      "id": 3,
+      "name_category": "Nature",
+      "title": "Kakashi 003",
+      "image": "file:///android_asset/view/kakashi_03.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_03.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-1.mcpack"
+    },
+    {
+      "id": 4,
+      "name_category": "Nature",
+      "title": "Kakashi 004",
+      "image": "file:///android_asset/view/kakashi_04.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_04.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-1.mcpack"
+    },
+    {
+      "id": 5,
+      "name_category": "Nature",
+      "title": "Kakashi 005",
+      "image": "file:///android_asset/view/kakashi_05.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_05.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-1.mcpack"
+    },
+    {
+      "id": 6,
+      "name_category": "Nature",
+      "title": "Kakashi 006",
+      "image": "file:///android_asset/view/kakashi_06.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_06.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-1.mcpack"
+    },
+    {
+      "id": 7,
+      "name_category": "Nature",
+      "title": "Kakashi 007",
+      "image": "file:///android_asset/view/kakashi_07.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_07.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-1.mcpack"
+    },
+    {
+      "id": 8,
+      "name_category": "Nature",
+      "title": "Kakashi 008",
+      "image": "file:///android_asset/view/kakashi_08.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_08.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-1.mcpack"
+    },
+    {
+      "id": 9,
+      "name_category": "Nature",
+      "title": "Kakashi 009",
+      "image": "file:///android_asset/view/kakashi_09.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_09.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-1.mcpack"
+    },
+    {
+      "id": 10,
+      "name_category": "Nature",
+      "title": "Kakashi 010",
+      "image": "file:///android_asset/view/kakashi_10.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_10.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-1.mcpack"
+    },
+    {
+      "id": 11,
+      "name_category": "Nature",
+      "title": "Kakashi 011",
+      "image": "file:///android_asset/view/kakashi_11.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_11.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-2.mcpack"
+    },
+    {
+      "id": 12,
+      "name_category": "Nature",
+      "title": "Kakashi 012",
+      "image": "file:///android_asset/view/kakashi_12.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_12.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-2.mcpack"
+    },
+    {
+      "id": 13,
+      "name_category": "Nature",
+      "title": "Kakashi 013",
+      "image": "file:///android_asset/view/kakashi_13.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_13.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-2.mcpack"
+    },
+    {
+      "id": 14,
+      "name_category": "Nature",
+      "title": "Kakashi 014",
+      "image": "file:///android_asset/view/kakashi_14.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_14.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-2.mcpack"
+    },
+    {
+      "id": 15,
+      "name_category": "Nature",
+      "title": "Kakashi 015",
+      "image": "file:///android_asset/view/kakashi_15.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_15.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-2.mcpack"
+    },
+    {
+      "id": 16,
+      "name_category": "Nature",
+      "title": "Kakashi 016",
+      "image": "file:///android_asset/view/kakashi_16.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_16.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-2.mcpack"
+    },
+    {
+      "id": 17,
+      "name_category": "Nature",
+      "title": "Kakashi 017",
+      "image": "file:///android_asset/view/kakashi_17.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_17.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-2.mcpack"
+    },
+    {
+      "id": 18,
+      "name_category": "Nature",
+      "title": "Kakashi 018",
+      "image": "file:///android_asset/view/kakashi_18.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_18.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-2.mcpack"
+    },
+    {
+      "id": 19,
+      "name_category": "Nature",
+      "title": "Kakashi 019",
+      "image": "file:///android_asset/view/kakashi_19.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_19.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-2.mcpack"
+    },
+    {
+      "id": 20,
+      "name_category": "Nature",
+      "title": "Kakashi 020",
+      "image": "file:///android_asset/view/kakashi_20.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_20.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-2.mcpack"
+    },
+    {
+      "id": 21,
+      "name_category": "Nature",
+      "title": "Kakashi 021",
+      "image": "file:///android_asset/view/kakashi_21.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_21.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-3.mcpack"
+    },
+    {
+      "id": 22,
+      "name_category": "Nature",
+      "title": "Kakashi 022",
+      "image": "file:///android_asset/view/kakashi_22.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_22.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-3.mcpack"
+    },
+    {
+      "id": 23,
+      "name_category": "Nature",
+      "title": "Kakashi 023",
+      "image": "file:///android_asset/view/kakashi_23.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_23.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-3.mcpack"
+    },
+    {
+      "id": 24,
+      "name_category": "Nature",
+      "title": "Kakashi 024",
+      "image": "file:///android_asset/view/kakashi_24.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_24.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-3.mcpack"
+    },
+    {
+      "id": 25,
+      "name_category": "Nature",
+      "title": "Kakashi 025",
+      "image": "file:///android_asset/view/kakashi_25.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_25.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-3.mcpack"
+    },
+    {
+      "id": 26,
+      "name_category": "Nature",
+      "title": "Kakashi 026",
+      "image": "file:///android_asset/view/kakashi_26.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_26.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-3.mcpack"
+    },
+    {
+      "id": 27,
+      "name_category": "Nature",
+      "title": "Kakashi 027",
+      "image": "file:///android_asset/view/kakashi_27.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_27.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-3.mcpack"
+    },
+    {
+      "id": 28,
+      "name_category": "Nature",
+      "title": "Kakashi 028",
+      "image": "file:///android_asset/view/kakashi_28.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_28.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-3.mcpack"
+    },
+    {
+      "id": 29,
+      "name_category": "Nature",
+      "title": "Kakashi 029",
+      "image": "file:///android_asset/view/kakashi_29.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_29.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-3.mcpack"
+    },
+    {
+      "id": 30,
+      "name_category": "Nature",
+      "title": "Kakashi 030",
+      "image": "file:///android_asset/view/kakashi_30.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_30.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-3.mcpack"
+    },
+    {
+      "id": 31,
+      "name_category": "Nature",
+      "title": "Kakashi 031",
+      "image": "file:///android_asset/view/kakashi_31.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_31.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-4.mcpack"
+    },
+    {
+      "id": 32,
+      "name_category": "Nature",
+      "title": "Kakashi 032",
+      "image": "file:///android_asset/view/kakashi_32.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_32.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-4.mcpack"
+    },
+    {
+      "id": 33,
+      "name_category": "Nature",
+      "title": "Kakashi 033",
+      "image": "file:///android_asset/view/kakashi_33.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_33.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-4.mcpack"
+    },
+    {
+      "id": 34,
+      "name_category": "Nature",
+      "title": "Kakashi 034",
+      "image": "file:///android_asset/view/kakashi_34.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_34.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-4.mcpack"
+    },
+    {
+      "id": 35,
+      "name_category": "Nature",
+      "title": "Kakashi 035",
+      "image": "file:///android_asset/view/kakashi_35.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_35.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-4.mcpack"
+    },
+    {
+      "id": 36,
+      "name_category": "Nature",
+      "title": "Kakashi 036",
+      "image": "file:///android_asset/view/kakashi_36.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_36.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-4.mcpack"
+    },
+    {
+      "id": 37,
+      "name_category": "Nature",
+      "title": "Kakashi 037",
+      "image": "file:///android_asset/view/kakashi_37.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_37.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-4.mcpack"
+    },
+    {
+      "id": 38,
+      "name_category": "Nature",
+      "title": "Kakashi 038",
+      "image": "file:///android_asset/view/kakashi_38.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_38.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-4.mcpack"
+    },
+    {
+      "id": 39,
+      "name_category": "Nature",
+      "title": "Kakashi 039",
+      "image": "file:///android_asset/view/kakashi_39.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_39.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-4.mcpack"
+    },
+    {
+      "id": 40,
+      "name_category": "Nature",
+      "title": "Kakashi 040",
+      "image": "file:///android_asset/view/kakashi_40.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_40.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-4.mcpack"
+    },
+    {
+      "id": 41,
+      "name_category": "Nature",
+      "title": "Kakashi 041",
+      "image": "file:///android_asset/view/kakashi_41.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_41.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-5.mcpack"
+    },
+    {
+      "id": 42,
+      "name_category": "Nature",
+      "title": "Kakashi 042",
+      "image": "file:///android_asset/view/kakashi_42.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_42.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-5.mcpack"
+    },
+    {
+      "id": 43,
+      "name_category": "Nature",
+      "title": "Kakashi 043",
+      "image": "file:///android_asset/view/kakashi_43.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_43.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-5.mcpack"
+    },
+    {
+      "id": 44,
+      "name_category": "Nature",
+      "title": "Kakashi 044",
+      "image": "file:///android_asset/view/kakashi_44.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_44.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-5.mcpack"
+    },
+    {
+      "id": 45,
+      "name_category": "Nature",
+      "title": "Kakashi 045",
+      "image": "file:///android_asset/view/kakashi_45.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_45.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-5.mcpack"
+    },
+    {
+      "id": 46,
+      "name_category": "Nature",
+      "title": "Kakashi 046",
+      "image": "file:///android_asset/view/kakashi_46.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_46.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-5.mcpack"
+    },
+    {
+      "id": 47,
+      "name_category": "Nature",
+      "title": "Kakashi 047",
+      "image": "file:///android_asset/view/kakashi_47.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_47.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-5.mcpack"
+    },
+    {
+      "id": 48,
+      "name_category": "Nature",
+      "title": "Kakashi 048",
+      "image": "file:///android_asset/view/kakashi_48.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_48.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-5.mcpack"
+    },
+    {
+      "id": 49,
+      "name_category": "Nature",
+      "title": "Kakashi 049",
+      "image": "file:///android_asset/view/kakashi_49.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_49.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-5.mcpack"
+    },
+    {
+      "id": 50,
+      "name_category": "Nature",
+      "title": "Kakashi 050",
+      "image": "file:///android_asset/view/kakashi_50.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_50.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-5.mcpack"
+    },
+    {
+      "id": 51,
+      "name_category": "Nature",
+      "title": "Kakashi 051",
+      "image": "file:///android_asset/view/kakashi_51.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_51.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-6.mcpack"
+    },
+    {
+      "id": 52,
+      "name_category": "Nature",
+      "title": "Kakashi 052",
+      "image": "file:///android_asset/view/kakashi_52.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_52.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-6.mcpack"
+    },
+    {
+      "id": 53,
+      "name_category": "Nature",
+      "title": "Kakashi 053",
+      "image": "file:///android_asset/view/kakashi_53.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_53.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-6.mcpack"
+    },
+    {
+      "id": 54,
+      "name_category": "Nature",
+      "title": "Kakashi 054",
+      "image": "file:///android_asset/view/kakashi_54.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_54.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-6.mcpack"
+    },
+    {
+      "id": 55,
+      "name_category": "Nature",
+      "title": "Kakashi 055",
+      "image": "file:///android_asset/view/kakashi_55.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_55.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-6.mcpack"
+    },
+    {
+      "id": 56,
+      "name_category": "Nature",
+      "title": "Kakashi 056",
+      "image": "file:///android_asset/view/kakashi_56.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_56.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-6.mcpack"
+    },
+    {
+      "id": 57,
+      "name_category": "Nature",
+      "title": "Kakashi 057",
+      "image": "file:///android_asset/view/kakashi_57.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_57.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-6.mcpack"
+    },
+    {
+      "id": 58,
+      "name_category": "Nature",
+      "title": "Kakashi 058",
+      "image": "file:///android_asset/view/kakashi_58.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_58.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-6.mcpack"
+    },
+    {
+      "id": 59,
+      "name_category": "Nature",
+      "title": "Kakashi 059",
+      "image": "file:///android_asset/view/kakashi_59.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_59.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-6.mcpack"
+    },
+    {
+      "id": 60,
+      "name_category": "Nature",
+      "title": "Kakashi 060",
+      "image": "file:///android_asset/view/kakashi_60.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_60.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/hacker-skin-pack-6.mcpack"
+    },
+    {
+      "id": 61,
+      "name_category": "Nature",
+      "title": "Kakashi 061",
+      "image": "file:///android_asset/view/kakashi_61.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_61.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/frost-diamond-skin-pack-7.mcpack"
+    },
+    {
+      "id": 62,
+      "name_category": "Nature",
+      "title": "Kakashi 062",
+      "image": "file:///android_asset/view/kakashi_62.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_62.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/frost-diamond-skin-pack-7.mcpack"
+    },
+    {
+      "id": 63,
+      "name_category": "Nature",
+      "title": "Kakashi 063",
+      "image": "file:///android_asset/view/kakashi_63.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_63.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/frost-diamond-skin-pack-7.mcpack"
+    },
+    {
+      "id": 64,
+      "name_category": "Nature",
+      "title": "Kakashi 064",
+      "image": "file:///android_asset/view/kakashi_64.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_64.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/frost-diamond-skin-pack-7.mcpack"
+    },
+    {
+      "id": 65,
+      "name_category": "Nature",
+      "title": "Kakashi 065",
+      "image": "file:///android_asset/view/kakashi_65.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_65.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/frost-diamond-skin-pack-7.mcpack"
+    },
+    {
+      "id": 66,
+      "name_category": "Nature",
+      "title": "Kakashi 066",
+      "image": "file:///android_asset/view/kakashi_66.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_66.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 67,
+      "name_category": "Nature",
+      "title": "Kakashi 067",
+      "image": "file:///android_asset/view/kakashi_67.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_67.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 68,
+      "name_category": "Nature",
+      "title": "Kakashi 068",
+      "image": "file:///android_asset/view/kakashi_68.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_68.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 69,
+      "name_category": "Nature",
+      "title": "Kakashi 069",
+      "image": "file:///android_asset/view/kakashi_69.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_69.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 70,
+      "name_category": "Nature",
+      "title": "Kakashi 070",
+      "image": "file:///android_asset/view/kakashi_70.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_70.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-07.mcpack"
+    },
+    {
+      "id": 71,
+      "name_category": "Nature",
+      "title": "Kakashi 071",
+      "image": "file:///android_asset/view/kakashi_71.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_71.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-08.mcpack"
+    },
+    {
+      "id": 72,
+      "name_category": "Nature",
+      "title": "Kakashi 072",
+      "image": "file:///android_asset/view/kakashi_72.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_72.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-08.mcpack"
+    },
+    {
+      "id": 73,
+      "name_category": "Nature",
+      "title": "Kakashi 073",
+      "image": "file:///android_asset/view/kakashi_73.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_73.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-08.mcpack"
+    },
+    {
+      "id": 74,
+      "name_category": "Nature",
+      "title": "Kakashi 074",
+      "image": "file:///android_asset/view/kakashi_74.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_74.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-08.mcpack"
+    },
+    {
+      "id": 75,
+      "name_category": "Nature",
+      "title": "Kakashi 075",
+      "image": "file:///android_asset/view/kakashi_75.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_75.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-08.mcpack"
+    },
+    {
+      "id": 76,
+      "name_category": "Nature",
+      "title": "Kakashi 076",
+      "image": "file:///android_asset/view/kakashi_76.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_76.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-08.mcpack"
+    },
+    {
+      "id": 77,
+      "name_category": "Nature",
+      "title": "Kakashi 077",
+      "image": "file:///android_asset/view/kakashi_77.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_77.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-08.mcpack"
+    },
+    {
+      "id": 78,
+      "name_category": "Nature",
+      "title": "Kakashi 078",
+      "image": "file:///android_asset/view/kakashi_78.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_78.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-08.mcpack"
+    },
+    {
+      "id": 79,
+      "name_category": "Nature",
+      "title": "Kakashi 079",
+      "image": "file:///android_asset/view/kakashi_79.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_79.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-08.mcpack"
+    },
+    {
+      "id": 80,
+      "name_category": "Nature",
+      "title": "Kakashi 080",
+      "image": "file:///android_asset/view/kakashi_80.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/kakashi/kakashi_80.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-08.mcpack"
+    }
+  ]
 }
