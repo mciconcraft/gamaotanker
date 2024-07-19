@@ -1,41 +1,362 @@
 {
-    "Ads": [
-        {
-            "select_ads_interstitial": "ADMOB",
-            "select_ads_interstitial2": "ADMOB",
-            "select_ads_banner": "ADMOB",
-            "select_ads_native": "ADMOB",
-            "select_ads_native_small": "ADMOB",
-            "interstitial_3d": "0",
-            "status_app": "0",
-            "link_redirect": "",
-            "admob_reward": "ca-app-pub-8221491831403599/1316742017",
-            "admob_interid": "ca-app-pub-8221491831403599/5478698320",
-            "admob_nativeid_kecil": "ca-app-pub-8221491831403599/1647031383",
-            "admob_nativeid_besar": "ca-app-pub-8221491831403599/6899358068",
-            "admob_banner": "ca-app-pub-8221491831403599/9417943331",
-            "admob_open_ads": "ca-app-pub-8221491831403599/5287126639",
-            "interval_intertitial": "3",
-            "unityID": "4573644xx",
-            "unity_inter": "Interstitial_Android",
-            "unity_banner": "",
-            "applovin_reward": "f4a6eb7da8c3a0fa",
-            "applovin_native": "6b60e4dc71923954",
-            "applovin_native_small": "eaf4325e1b1b0847",
-            "applovin_banner": "fb40d102114d5e03",
-            "applovin_inter": "012174ef94edc84e",
-            "applovin_zone": "9f20993c3483565b",
-            "select_exit": "1",
-            "on_off_category": "1",
-            "on_off_more_app": "2",
-            "on_off_video_ads": "1",
-            "on_off_open_ads": "0",
-            "tutorial": "https://sites.google.com/view/mcpe-starla/halaman-muka",
-            "hpk_admob1": "",
-            "hpk_admob2": "",
-            "hpk_admob3": "",
-            "hpk_admob4": "",
-            "hpk_admob5": ""
-        }
-    ]
+  "Categories": [
+    {
+      "id": 1,
+      "name_category": "minecraft google play",
+      "image": "https://lh3.googleusercontent.com/d/https://i.pinimg.com/564x/6c/b4/4d/6cb44d856850800b2b97858ac337e47f.jpg"
+    },
+    {
+      "id": 2,
+      "name_category": "Minecraft Skin",
+      "image": "https://lh3.googleusercontent.com/d/http://www.123mobilewallpapers.com/wp-content/uploads/2015/09/black_cat_cute_wallpaper.jpg"
+    },
+    {
+      "id": 3,
+      "name_category": "minecraft play store",
+      "image": "https://lh3.googleusercontent.com/d/file:///android_asset/image/car.jpg"
+    },
+    {
+      "id": 4,
+      "name_category": "Nature",
+      "image": "https://lh3.googleusercontent.com/d/file:///android_asset/image/car.jpg"
+    }
+  ],
+  "Data": [
+    {
+      "id": 1,
+      "name_category": "Nature",
+      "title": "Akatsuki 001",
+      "image": "file:///android_asset/view/akatsuki_001.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_01.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 2,
+      "name_category": "Nature",
+      "title": "Akatsuki 002",
+      "image": "file:///android_asset/view/akatsuki_002.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_02.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 3,
+      "name_category": "Nature",
+      "title": "Akatsuki 003",
+      "image": "file:///android_asset/view/akatsuki_003.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_03.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 4,
+      "name_category": "Nature",
+      "title": "Akatsuki 004",
+      "image": "file:///android_asset/view/akatsuki_004.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_04.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 5,
+      "name_category": "Nature",
+      "title": "Akatsuki 005",
+      "image": "file:///android_asset/view/akatsuki_005.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_05.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 6,
+      "name_category": "Nature",
+      "title": "Akatsuki 006",
+      "image": "file:///android_asset/view/akatsuki_006.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_06.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 7,
+      "name_category": "Nature",
+      "title": "Akatsuki 007",
+      "image": "file:///android_asset/view/akatsuki_007.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_07.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 8,
+      "name_category": "Nature",
+      "title": "Akatsuki 008",
+      "image": "file:///android_asset/view/akatsuki_008.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_08.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 9,
+      "name_category": "Nature",
+      "title": "Akatsuki 009",
+      "image": "file:///android_asset/view/akatsuki_009.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_09.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 10,
+      "name_category": "Nature",
+      "title": "Akatsuki 010",
+      "image": "file:///android_asset/view/akatsuki_010.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_10.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-01.mcpack"
+    },
+    {
+      "id": 11,
+      "name_category": "Nature",
+      "title": "Akatsuki 011",
+      "image": "file:///android_asset/view/akatsuki_011.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_11.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 12,
+      "name_category": "Nature",
+      "title": "Akatsuki 012",
+      "image": "file:///android_asset/view/akatsuki_012.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_12.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 13,
+      "name_category": "Nature",
+      "title": "Akatsuki 013",
+      "image": "file:///android_asset/view/akatsuki_013.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_13.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 14,
+      "name_category": "Nature",
+      "title": "Akatsuki 014",
+      "image": "file:///android_asset/view/akatsuki_014.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_14.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 15,
+      "name_category": "Nature",
+      "title": "Akatsuki 015",
+      "image": "file:///android_asset/view/akatsuki_015.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_15.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 16,
+      "name_category": "Nature",
+      "title": "Akatsuki 016",
+      "image": "file:///android_asset/view/akatsuki_016.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_16.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 17,
+      "name_category": "Nature",
+      "title": "Akatsuki 017",
+      "image": "file:///android_asset/view/akatsuki_017.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_17.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 18,
+      "name_category": "Nature",
+      "title": "Akatsuki 018",
+      "image": "file:///android_asset/view/akatsuki_018.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_18.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 19,
+      "name_category": "Nature",
+      "title": "Akatsuki 019",
+      "image": "file:///android_asset/view/akatsuki_019.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_19.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 20,
+      "name_category": "Nature",
+      "title": "Akatsuki 020",
+      "image": "file:///android_asset/view/akatsuki_020.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_20.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-02.mcpack"
+    },
+    {
+      "id": 21,
+      "name_category": "Nature",
+      "title": "Akatsuki 021",
+      "image": "file:///android_asset/view/akatsuki_021.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_21.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 22,
+      "name_category": "Nature",
+      "title": "Akatsuki 022",
+      "image": "file:///android_asset/view/akatsuki_022.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_22.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 23,
+      "name_category": "Nature",
+      "title": "Akatsuki 023",
+      "image": "file:///android_asset/view/akatsuki_023.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_23.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 24,
+      "name_category": "Nature",
+      "title": "Akatsuki 024",
+      "image": "file:///android_asset/view/akatsuki_024.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_24.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 25,
+      "name_category": "Nature",
+      "title": "Akatsuki 025",
+      "image": "file:///android_asset/view/akatsuki_025.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_25.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 26,
+      "name_category": "Nature",
+      "title": "Akatsuki 026",
+      "image": "file:///android_asset/view/akatsuki_026.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_26.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 27,
+      "name_category": "Nature",
+      "title": "Akatsuki 027",
+      "image": "file:///android_asset/view/akatsuki_027.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_27.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 28,
+      "name_category": "Nature",
+      "title": "Akatsuki 028",
+      "image": "file:///android_asset/view/akatsuki_028.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_28.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 29,
+      "name_category": "Nature",
+      "title": "Akatsuki 029",
+      "image": "file:///android_asset/view/akatsuki_029.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_29.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 30,
+      "name_category": "Nature",
+      "title": "Akatsuki 030",
+      "image": "file:///android_asset/view/akatsuki_030.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_30.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-03.mcpack"
+    },
+    {
+      "id": 31,
+      "name_category": "Nature",
+      "title": "Akatsuki 031",
+      "image": "file:///android_asset/view/akatsuki_031.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_31.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 32,
+      "name_category": "Nature",
+      "title": "Akatsuki 032",
+      "image": "file:///android_asset/view/akatsuki_032.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_32.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 33,
+      "name_category": "Nature",
+      "title": "Akatsuki 033",
+      "image": "file:///android_asset/view/akatsuki_033.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_33.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 34,
+      "name_category": "Nature",
+      "title": "Akatsuki 034",
+      "image": "file:///android_asset/view/akatsuki_034.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_34.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 35,
+      "name_category": "Nature",
+      "title": "Akatsuki 035",
+      "image": "file:///android_asset/view/akatsuki_035.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_35.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 36,
+      "name_category": "Nature",
+      "title": "Akatsuki 036",
+      "image": "file:///android_asset/view/akatsuki_036.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_36.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 37,
+      "name_category": "Nature",
+      "title": "Akatsuki 037",
+      "image": "file:///android_asset/view/akatsuki_037.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_37.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 38,
+      "name_category": "Nature",
+      "title": "Akatsuki 038",
+      "image": "file:///android_asset/view/akatsuki_038.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_38.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 39,
+      "name_category": "Nature",
+      "title": "Akatsuki 039",
+      "image": "file:///android_asset/view/akatsuki_039.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_39.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 40,
+      "name_category": "Nature",
+      "title": "Akatsuki 040",
+      "image": "file:///android_asset/view/akatsuki_040.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_40.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-04.mcpack"
+    },
+    {
+      "id": 41,
+      "name_category": "Nature",
+      "title": "Akatsuki 041",
+      "image": "file:///android_asset/view/akatsuki_041.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_41.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    },
+    {
+      "id": 42,
+      "name_category": "Nature",
+      "title": "Akatsuki 042",
+      "image": "file:///android_asset/view/akatsuki_042.png",
+      "skin": "https://raw.githubusercontent.com/mcpeskins/gamaotanker/main/akatsuki/akatsuki_42.png",
+      "download": "https://raw.githubusercontent.com/mciconcraft/gamaotanker/main/mcpack/aesthetic-skin-pack-05.mcpack"
+    }
+  ]
 }
